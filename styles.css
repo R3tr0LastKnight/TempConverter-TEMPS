@@ -12,13 +12,13 @@
   caret-color: transparent;
 }
 body {
-  background-color: #ffba08;
+  background-color: #caf0f8;
   font-family: "Poppins", sans-serif;
 }
 h1 {
   font-size: 50px;
   font-weight: 900;
-  color: #d00000;
+  color: #023e8a;
   margin-top: 20px;
   margin-left: 50px;
   font-size: 90px;
@@ -28,23 +28,23 @@ h1 {
   width: 50%;
   text-align: center;
   position: relative;
-  top: -130px;
+  top: -135px;
   left: 25%;
   overflow: hidden;
-  color: #faa307;
+  color: #90e0ef;
   z-index: -1;
 }
 .calci {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #e85d04;
+  background-color: #48cae4;
   padding: 50px;
 }
 
 .disp input {
   height: 40px;
-  border: 5px solid #d00000;
+  border: 5px solid #90e0ef;
   text-align: center;
   width: auto;
 }
@@ -59,7 +59,7 @@ h1 {
   padding: 10px;
 }
 .nos input {
-  color: #edf2f4;
+  color: #000;
 }
 .operators {
   display: flex;
@@ -75,36 +75,36 @@ h1 {
 .sus {
   font-size: 15px;
   padding: 2px;
-  background-color: #faa307;
+  background-color: #90e0ef;
 }
 .body input {
   filter: drop-shadow(0px 1px 1px #000);
-  border: solid 2px #d00000;
+  border: solid 2px #90e0ef;
 }
 .git {
   border-radius: 4px;
   padding: 2px;
-  color: #d00000;
-  background-color: #faa307;
+  color: #90e0ef;
+  background-color: #90e0ef;
   filter: drop-shadow(0px 1px 1px #000);
-  border: solid 2px #d00000;
+  border: solid 2px #90e0ef;
 }
 .git:hover {
-  background-color: #faa307;
+  background-color: #90e0ef;
 }
 
 .number,
 .ops {
-  background-color: #faa307;
+  background-color: #90e0ef;
 }
 
 .body input:hover {
   cursor: pointer;
   transform: translateY(-2px);
-  filter: drop-shadow(0px 5px 3px #ae2012);
+  filter: drop-shadow(0px 5px 3px #023e8a);
 }
 .body input:active {
-  border: solid 2px #ae2012;
+  border: solid 2px #023e8a;
 }
 .nos input {
   padding-left: 15px;
@@ -113,11 +113,11 @@ h1 {
   padding: 6px;
 }
 .filter {
-  background-color: #faa307;
+  background-color: #0096c7;
   padding: 2px 15px;
   border-radius: 4px;
 }
 .filter label {
-  color: #edf2f4;
+  color: #000;
   text-align: center;
 }
